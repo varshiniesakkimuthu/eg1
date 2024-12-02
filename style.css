@@ -1,0 +1,74 @@
+.main {
+    background-image: url(images/home_Main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 627px;
+    border-color: brown;
+    border: 6px;
+}
+
+.homeNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+    gap: 50px;
+    color: white;
+}
+
+.list {
+    list-style: none;
+    gap: 30px;
+}
+
+.list a {
+    text-decoration: none;
+
+}
+
+.getApp {
+    font-size: 15px;
+    padding-right: 400px;
+    color: white
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0 20px;
+}
+
+.tagline {
+    font-size: 36px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#location {
+    width: 243px;
+    height: 52px;
+    border-width: 0 2px 0 0;
+    border-color: grey;
+
+}
+
+#dish {
+    border: none;
+    width: 482px;
+    height: 46px;
+}
+
+.search {
+    padding: 0 10px;
+    margin: 0 auto;
+    height: 58px;
+    gap: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
